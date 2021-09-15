@@ -1,4 +1,4 @@
-#******************************************************************************
+/******************************************************************************
 #* Copyright (C) 2020 by Javier Quesada Galban
 #*
 #* Arduino program to count face-mask hours
@@ -11,6 +11,7 @@
 #* @brief Program to show used hours of a FPP2 face-mask. 
 #*
 #
+*/
 
 #include <Arduino.h>
 #include <U8g2lib.h>
