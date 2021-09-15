@@ -28,7 +28,7 @@
 
 unsigned long millisInicio;
 unsigned long millisActual;
-const unsigned long duracion = 28800; //cambiar
+const unsigned long duracion = 28800; //variable para tiempo de mascarilla
 int longitud = 0;
 int write_mem = 0;
 int tiempo_memoria;
@@ -111,7 +111,8 @@ void loop(void) {
   //u8g2.print(myChronoSeconds.elapsed());
   u8g2.drawXBMP(0, 0, 32, 32, mascarilla_bits);
   u8g2.drawFrame(35, 10, 90, 10);
-  //longitud = (millis() / 1000) / 5; // dividendo es segundosmaximos/logintudmaximabarra
+  //longitud = (millis() / 1000) / 5; // dividendo es segundosmaximos/ \
+  logintudmaximabarra
   longitud = (myChronoSeconds.elapsed() / 320); //cambiar: duracion/longitud(90)
   u8g2.drawBox(36, 11, longitud, 8);
   u8g2.setCursor(3, 60);
