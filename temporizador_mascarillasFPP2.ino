@@ -1,3 +1,17 @@
+#******************************************************************************
+#* Copyright (C) 2020 by Javier Quesada Galban
+#*
+#* Arduino program to count face-mask hours
+#*
+#******************************************************************************
+#
+#* @file temporizador_mascarillasFPP2.ino
+#* @author Javier Quesada Galban
+#* @date 1 August 2020
+#* @brief Program to show used hours of a FPP2 face-mask. 
+#*
+#
+
 #include <Arduino.h>
 #include <U8g2lib.h>
 #include <Chrono.h>
