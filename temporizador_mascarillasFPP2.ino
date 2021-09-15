@@ -8,7 +8,8 @@
 #* @file temporizador_mascarillasFPP2.ino
 #* @author Javier Quesada Galban
 #* @date 1 August 2020
-#* @brief Program to show used hours of a FPP2 face-mask. 
+#* @brief Program to show used hours of a FPP2 face-mask. Stores past time in
+#* Arduino's EEPROM. Resume, pause and rest timers. 
 #*
 #
 */
